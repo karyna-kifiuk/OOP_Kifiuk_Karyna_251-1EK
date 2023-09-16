@@ -60,14 +60,17 @@ class Program
         Console.WriteLine(greeting);
 
         //4 завдання
-        Console.Write("4. Введiть перше цiле число: ");
+         Console.Write("4. Введiть перше цiле число: ");
         int num1 =
-            Convert.ToInt32(Console.ReadLine());
+           Convert.ToInt32(Console.ReadLine());
         Console.Write("Введiть друге цiле число: ");
         int num2 =
             Convert.ToInt32(Console.ReadLine());
-        int max = Math.Max(num1, num2);
-        int min = Math.Min(num1, num2);
+        Console.Write("Введiть третє цiле число: ");
+        int num3 =
+            Convert.ToInt32(Console.ReadLine());
+        int max = Math.Max(num1, num2, num3);
+        int min = Math.Min(num1, num2, num3);
         Console.WriteLine($"Максимальне число: {max}");
         Console.WriteLine($"Мiнiмальне число: {min}");
 
