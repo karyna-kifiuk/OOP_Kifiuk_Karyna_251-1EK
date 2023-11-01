@@ -17,6 +17,7 @@ class Program
             diagonalSum += matrix[i, i];
         }
 
+
         Console.WriteLine("1. Сума елементiв по головнiй дiагоналi: " + diagonalSum);
 
         // 2 завдання багатовимірних масивів
