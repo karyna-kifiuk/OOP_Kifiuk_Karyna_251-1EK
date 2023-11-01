@@ -108,5 +108,6 @@ class Program
 
         Console.WriteLine($"НСД чисел {num1} i {num2} дорiвнює {gcd}");
         Console.ReadLine();
+
     }
 }
